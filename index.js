@@ -15,4 +15,4 @@ const inRange = (number, {start = 0, end}) => {
 	return number >= min(start, end) && number <= max(end, start);
 };
 
-export default inRange;
+module.exports = inRange;
